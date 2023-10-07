@@ -1,0 +1,15 @@
+<definition hotspot_x="5" version="0.70" link_type="simple" height="10" type="element" orientation="dyyy" width="10" hotspot_y="5">
+    <uuid uuid="{389876a5-fd70-4015-8c62-c37d4dbbfbb5}"/>
+    <names>
+        <name lang="sk">Označenie prierezu</name>
+    </names>
+    <elementInformations/>
+    <informations></informations>
+    <description>
+        <line antialias="false" length1="1.5" x1="-3" y2="3" length2="1.5" x2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y1="-3"/>
+        <dynamic_text font="Arial,4,-1,5,50,0,0,0,0,0" frame="false" z="2" rotation="0" y="-10" text_from="ElementInfo" uuid="{c62f7b57-c9fd-42ad-93b3-0db1f76f7f32}" x="0" text_width="-1" Halignment="AlignLeft" Valignment="AlignVCenter">
+            <text></text>
+            <info_name>description</info_name>
+        </dynamic_text>
+    </description>
+</definition>

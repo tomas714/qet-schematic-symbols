@@ -1,0 +1,15 @@
+<definition hotspot_x="9" version="0.70" link_type="simple" height="20" type="element" orientation="dyyy" width="20" hotspot_y="7">
+    <uuid uuid="{a4433e56-9b20-419d-9970-45f9132f836a}"/>
+    <names>
+        <name lang="sk">Spoj (3N-2)</name>
+    </names>
+    <elementInformations/>
+    <informations></informations>
+    <description>
+        <line antialias="false" length1="1.5" x1="-4" y2="0" length2="1.5" x2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y1="0"/>
+        <polygon antialias="false" x4="-4" closed="false" x1="0" y2="3" x2="0" y4="0" y3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-3" y1="4"/>
+        <terminal y="4" x="0" orientation="s"/>
+        <terminal y="0" x="4" orientation="e"/>
+        <terminal y="0" x="-4" orientation="w"/>
+    </description>
+</definition>

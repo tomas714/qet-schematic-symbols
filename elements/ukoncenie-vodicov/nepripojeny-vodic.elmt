@@ -1,0 +1,14 @@
+<definition hotspot_x="8" version="0.70" link_type="simple" height="30" type="element" orientation="dyyy" width="20" hotspot_y="16">
+    <uuid uuid="{9c566d79-c9f8-4022-9943-88cf880ceb9f}"/>
+    <names>
+        <name lang="sk">Nepripojený vodič</name>
+    </names>
+    <elementInformations/>
+    <informations></informations>
+    <description>
+        <line antialias="false" length1="1.5" x1="0" y2="6" length2="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y1="-10"/>
+        <arc antialias="true" start="180" angle="180" y="4.5" x="0" height="5" width="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" length1="1.5" x1="5" y2="4" length2="1.5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y1="6"/>
+        <terminal y="-10" x="0" orientation="n"/>
+    </description>
+</definition>
