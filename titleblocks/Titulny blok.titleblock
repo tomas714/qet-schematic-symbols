@@ -1,39 +1,38 @@
 <titleblocktemplate name="Titulny blok">
     <information></information>
-    <logos>
-    </logos>
+    <logos/>
     <grid rows="10;10;10;10;10;10;" cols="90px;150px;60px;100px;110px;r100%;100px;100px;">
-        <field align="left" hadjust="true" row="0" col="0" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="0" align="left" fontsize="8" hadjust="true" valign="center" col="0" displaylabel="true">
             <value/>
             <label>
                 <translation lang="sk">Projektoval</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="0" col="1" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="0" align="left" fontsize="8" hadjust="true" valign="center" col="1" displaylabel="true">
             <value>
                 <translation lang="sk">%{author}</translation>
             </value>
             <label/>
         </field>
-        <field align="left" hadjust="true" row="0" col="2" fontsize="8" rowspan="1" name="date" valign="center" displaylabel="true">
+        <field name="date" rowspan="1" row="0" align="left" fontsize="8" hadjust="true" valign="center" col="2" displaylabel="true">
             <value/>
             <label>
                 <translation lang="sk">Dátum</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="0" col="3" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="0" align="left" fontsize="8" hadjust="true" valign="center" col="3" displaylabel="true">
             <value>
                 <translation lang="sk">%{date}</translation>
             </value>
             <label/>
         </field>
-        <field align="center" row="0" col="4" fontsize="9" rowspan="5" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="5" row="0" align="center" fontsize="9" hadjust="true" valign="center" col="4" displaylabel="true">
             <value>
                 <translation lang="sk">LOGO</translation>
             </value>
             <label/>
         </field>
-        <field align="left" hadjust="true" row="0" col="5" fontsize="10" rowspan="2" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="2" row="0" align="left" fontsize="10" hadjust="true" valign="center" col="5" displaylabel="true">
             <value>
                 <translation lang="sk">%{projecttitle}</translation>
             </value>
@@ -41,7 +40,7 @@
                 <translation lang="sk">Názov</translation>
             </label>
         </field>
-        <field colspan="1" align="left" hadjust="true" row="0" col="6" fontsize="10" rowspan="2" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="2" colspan="1" row="0" align="left" fontsize="10" hadjust="true" valign="center" col="6" displaylabel="true">
             <value>
                 <translation lang="sk">%{indexrev}</translation>
             </value>
@@ -49,31 +48,31 @@
                 <translation lang="sk">Č. výkresu</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="2" col="0" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="2" align="left" fontsize="8" hadjust="true" valign="center" col="0" displaylabel="true">
             <value/>
             <label>
                 <translation lang="sk">Kontroloval</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="2" col="1" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="2" align="left" fontsize="8" hadjust="true" valign="center" col="1" displaylabel="true">
             <value>
-                <translation lang="sk">%{inspection-autor}</translation>
+                <translation lang="sk">%{inspection-author}</translation>
             </value>
             <label/>
         </field>
-        <field align="left" hadjust="true" row="2" col="2" fontsize="8" rowspan="1" name="date" valign="center" displaylabel="true">
+        <field name="date" rowspan="1" row="2" align="left" fontsize="8" hadjust="true" valign="center" col="2" displaylabel="true">
             <value/>
             <label>
                 <translation lang="sk">Dátum</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="2" col="3" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="2" align="left" fontsize="8" hadjust="true" valign="center" col="3" displaylabel="true">
             <value>
                 <translation lang="sk">%{inspection-date}</translation>
             </value>
             <label/>
         </field>
-        <field align="left" hadjust="true" row="3" col="5" fontsize="10" rowspan="2" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="2" row="3" align="left" fontsize="10" hadjust="true" valign="center" col="5" displaylabel="true">
             <value>
                 <translation lang="sk">%{title}</translation>
             </value>
@@ -81,13 +80,13 @@
                 <translation lang="sk">Opis strany</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="3" col="6" fontsize="9" rowspan="2" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="2" row="3" align="left" fontsize="9" hadjust="true" valign="center" col="6" displaylabel="true">
             <value>
                 <translation lang="sk">=%{plant}+%{locmach}</translation>
             </value>
             <label/>
         </field>
-        <field align="left" hadjust="true" row="3" col="7" fontsize="10" rowspan="2" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="2" row="3" align="left" fontsize="10" hadjust="true" valign="center" col="7" displaylabel="true">
             <value>
                 <translation lang="sk">%{folio-id}/%{folio-total}</translation>
             </value>
@@ -95,25 +94,25 @@
                 <translation lang="sk">List</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="4" col="0" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="4" align="left" fontsize="8" hadjust="true" valign="center" col="0" displaylabel="true">
             <value/>
             <label>
                 <translation lang="sk">Schválil</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="4" col="1" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="4" align="left" fontsize="8" hadjust="true" valign="center" col="1" displaylabel="true">
             <value>
-                <translation lang="sk">%{approval-autor}</translation>
+                <translation lang="sk">%{approval-author}</translation>
             </value>
             <label/>
         </field>
-        <field align="left" hadjust="true" row="4" col="2" fontsize="8" rowspan="1" name="date" valign="center" displaylabel="true">
+        <field name="date" rowspan="1" row="4" align="left" fontsize="8" hadjust="true" valign="center" col="2" displaylabel="true">
             <value/>
             <label>
                 <translation lang="sk">Dátum</translation>
             </label>
         </field>
-        <field align="left" hadjust="true" row="4" col="3" fontsize="8" rowspan="1" name="" valign="center" displaylabel="true">
+        <field name="" rowspan="1" row="4" align="left" fontsize="8" hadjust="true" valign="center" col="3" displaylabel="true">
             <value>
                 <translation lang="sk">%{approval-date}</translation>
             </value>
