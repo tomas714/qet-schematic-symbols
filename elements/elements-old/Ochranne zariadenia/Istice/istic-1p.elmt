@@ -1,0 +1,45 @@
+<definition hotspot_x="18" version="0.80" height="50" hotspot_y="25" width="30" type="element" link_type="master">
+    <uuid uuid="{ce94b54e-e999-406e-aedc-7d7e2ee01506}"/>
+    <names>
+        <name lang="sk">Jednopolovy istic s tepelnou a magnetickou spustou</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">protection</kindInformation>
+    </kindInformations>
+    <elementInformations>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="manufacturer"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" end1="none" antialias="false" y1="-10" x2="0" end2="none" x1="0"/>
+        <polygon y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="10" x3="-10" antialias="false" y1="20" x2="0" x1="0"/>
+        <polygon y5="0" y3="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-1" x3="-9" x4="-11" antialias="false" x5="-10" y1="-2" x2="-8" x6="-12" y4="-2" y6="1" x1="-6"/>
+        <line length2="0.2" length1="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="5" end1="none" antialias="false" y1="2" x2="-10" end2="triangle" x1="-4"/>
+        <text x="2" y="-16" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0" text="1" color="#000000"/>
+        <dynamic_text x="-25" y="-19.5" rotation="0" frame="false" font="Arial,6,-1,5,75,0,0,0,0,0" text_width="-1" Halignment="AlignRight" Valignment="AlignVCenter" z="6" text_from="ElementInfo" uuid="{ac225072-480a-41e3-9f41-58183a0a7244}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text x="-25" y="-7.5" rotation="0" frame="false" font="Arial,4,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignRight" Valignment="AlignVCenter" z="7" text_from="ElementInfo" uuid="{f09eceba-ed8a-4f5b-9435-fc556bc185a8}">
+            <text></text>
+            <info_name>designation</info_name>
+        </dynamic_text>
+        <dynamic_text x="-25" y="0" rotation="0" frame="false" font="Arial,4,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignRight" Valignment="AlignVCenter" z="8" text_from="ElementInfo" uuid="{33186cd4-478b-4140-b446-bde3e3f87228}">
+            <text></text>
+            <info_name>description</info_name>
+        </dynamic_text>
+        <text x="2" y="20" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0" text="2" color="#000000"/>
+        <terminal x="0" y="20" name="" orientation="s" uuid="{fe02af4e-c87d-48bb-a3f5-79107451bae9}"/>
+        <terminal x="0" y="-20" name="" orientation="n" uuid="{77e5c514-e266-41cb-9705-f01901b087d6}"/>
+    </description>
+</definition>

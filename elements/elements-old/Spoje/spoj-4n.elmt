@@ -1,0 +1,29 @@
+<definition link_type="simple" height="20" version="0.80" hotspot_y="9" width="20" type="element" hotspot_x="9">
+    <uuid uuid="{7d557ff7-d046-489e-a0ca-bab8797f3bd2}"/>
+    <names>
+        <name lang="sk">Spoj s 4 napojeniami.</name>
+    </names>
+    <elementInformations>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="manufacturer"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y1="4" y2="3" y3="0" x4="4" x1="0" x3="3" y4="0"/>
+        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y1="-4" y2="-3" y3="0" x4="-4" x1="0" x3="-3" y4="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="4" antialias="false" y1="0" end1="none" y2="0" end2="none" length1="1.5" x1="-4" length2="1.5"/>
+        <terminal uuid="{dd9a920b-c893-4722-b436-79264bade73b}" orientation="n" x="0" y="-4" name=""/>
+        <terminal uuid="{a110091b-3a58-4a26-8b06-f085c2cc58b9}" orientation="e" x="4" y="0" name=""/>
+        <terminal uuid="{8f4b144d-836e-4d48-a318-f56bb76e9ae3}" orientation="w" x="-4" y="0" name=""/>
+        <terminal uuid="{ae5d75d4-5d21-4fa5-9b4c-dba14c95d7bf}" orientation="s" x="0" y="4" name=""/>
+    </description>
+</definition>

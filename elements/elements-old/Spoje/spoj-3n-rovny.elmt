@@ -1,0 +1,27 @@
+<definition width="20" version="0.80" hotspot_x="9" hotspot_y="7" type="element" height="20" link_type="simple">
+    <uuid uuid="{ac832c07-0d91-4a79-b62f-5a0a72c4a8cd}"/>
+    <names>
+        <name lang="sk">Spoj s 3 napojeniami (rovny).</name>
+    </names>
+    <elementInformations>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="quantity" show="1"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <line y2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" end2="none" x2="4" end1="none" y1="0" x1="-4"/>
+        <polygon y2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="0" antialias="false" x2="0" y3="0" x4="4" x3="3" y1="4" closed="false" x1="0"/>
+        <terminal y="0" name="" orientation="w" x="-4" uuid="{76bdf27a-5297-4115-834c-36a4414cc548}"/>
+        <terminal y="0" name="" orientation="e" x="4" uuid="{f72e9be5-09d9-40e0-8577-6cded9f05623}"/>
+        <terminal y="4" name="" orientation="s" x="0" uuid="{a3fb3060-f880-4ffa-a950-dbefee3132dc}"/>
+    </description>
+</definition>

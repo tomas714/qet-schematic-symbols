@@ -1,0 +1,63 @@
+<definition link_type="master" type="element" height="50" hotspot_x="19" width="70" version="0.80" hotspot_y="25">
+    <uuid uuid="{d63664c4-ddb6-4f55-9688-522ad45973c1}"/>
+    <names>
+        <name lang="sk">Trojpolovy poistkovy odpojovac</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">protection</kindInformation>
+    </kindInformations>
+    <elementInformations>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="manufacturer"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <line y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:gray" antialias="false" end2="none" x1="-14" x2="32" length1="1.5" length2="1.5" end1="none" y1="0"/>
+        <polygon y2="-7" y4="7" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" x1="30" y3="5" x2="34" x4="36" x3="40" y1="-5"/>
+        <polygon y2="-7" y4="7" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" x1="-10" y3="5" x2="-6" x4="-4" x3="0" y1="-5"/>
+        <polygon y2="-7" y4="7" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false" x1="10" y3="5" x2="14" x4="16" x3="20" y1="-5"/>
+        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="40" x2="40" length1="1.5" length2="1.5" end1="none" y1="-10"/>
+        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="0" x2="0" length1="1.5" length2="1.5" end1="none" y1="-10"/>
+        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="20" x2="20" length1="1.5" length2="1.5" end1="none" y1="-10"/>
+        <polygon y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" closed="false" x1="0" y3="-10" x2="0" x3="-10" y1="20"/>
+        <polygon y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" closed="false" x1="40" y3="-10" x2="40" x3="30" y1="20"/>
+        <polygon y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" closed="false" x1="20" y3="-10" x2="20" x3="10" y1="20"/>
+        <text y="-16" color="#000000" x="22" text="3" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0"/>
+        <text y="-16" color="#000000" x="2" text="1" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0"/>
+        <text y="-16" color="#000000" x="42" text="5" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0"/>
+        <text y="20" color="#000000" x="42" text="6" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0"/>
+        <text y="20" color="#000000" x="22" text="4" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0"/>
+        <text y="20" color="#000000" x="2" text="2" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0"/>
+        <dynamic_text y="-19.5" z="17" text_from="ElementInfo" frame="false" Halignment="AlignRight" Valignment="AlignVCenter" text_width="-1" x="-25" rotation="0" font="Arial,6,-1,5,75,0,0,0,0,0" uuid="{ac225072-480a-41e3-9f41-58183a0a7244}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text y="-7.5" z="18" text_from="ElementInfo" frame="false" Halignment="AlignRight" Valignment="AlignVCenter" text_width="-1" x="-25" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0" uuid="{f09eceba-ed8a-4f5b-9435-fc556bc185a8}">
+            <text></text>
+            <info_name>designation</info_name>
+        </dynamic_text>
+        <dynamic_text y="0" z="19" text_from="ElementInfo" frame="false" Halignment="AlignRight" Valignment="AlignVCenter" text_width="-1" x="-25" rotation="0" font="Arial,4,-1,5,50,0,0,0,0,0" uuid="{33186cd4-478b-4140-b446-bde3e3f87228}">
+            <text></text>
+            <info_name>description</info_name>
+        </dynamic_text>
+        <line y2="-3" style="line-style:normal;line-weight:normal;filling:none;color:gray" antialias="false" end2="none" x1="-14" x2="-14" length1="1.5" length2="1.5" end1="none" y1="3"/>
+        <line y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="-2" x2="2" length1="1.5" length2="1.5" end1="none" y1="-10"/>
+        <line y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="18" x2="22" length1="1.5" length2="1.5" end1="none" y1="-10"/>
+        <line y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="38" x2="42" length1="1.5" length2="1.5" end1="none" y1="-10"/>
+        <terminal y="20" orientation="s" name="" x="0" uuid="{fe02af4e-c87d-48bb-a3f5-79107451bae9}"/>
+        <terminal y="-20" orientation="n" name="" x="20" uuid="{75e6f05f-e3db-4b5c-a37e-03209366dd83}"/>
+        <terminal y="20" orientation="s" name="" x="20" uuid="{f5e4b1f9-c71f-403b-9d77-57e2122099e9}"/>
+        <terminal y="-20" orientation="n" name="" x="40" uuid="{802a4a66-c1a0-4c9f-a3d2-4122fdfe23d6}"/>
+        <terminal y="20" orientation="s" name="" x="40" uuid="{ce89d571-5fe4-4c8f-988b-3b5c66a0c087}"/>
+        <terminal y="-20" orientation="n" name="" x="0" uuid="{77e5c514-e266-41cb-9705-f01901b087d6}"/>
+    </description>
+</definition>

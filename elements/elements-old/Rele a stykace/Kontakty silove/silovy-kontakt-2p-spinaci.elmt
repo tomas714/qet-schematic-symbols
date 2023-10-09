@@ -1,0 +1,41 @@
+<definition hotspot_x="13" version="0.80" height="50" hotspot_y="25" width="50" type="element" link_type="slave">
+    <uuid uuid="{e0af4fe1-4594-4ecd-9334-438bd5df817a}"/>
+    <names>
+        <name lang="sk">Dvojpolovy silovy kontakt (spinaci).</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="number">2</kindInformation>
+        <kindInformation show="1" name="type">power</kindInformation>
+        <kindInformation show="1" name="state">NO</kindInformation>
+    </kindInformations>
+    <informations></informations>
+    <description>
+        <line length2="1.5" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:gray" y2="2" end1="none" antialias="false" y1="2" x2="-3.5" end2="none" x1="15.5"/>
+        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" end1="none" antialias="false" y1="-10" x2="20" end2="none" x1="20"/>
+        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" end1="none" antialias="false" y1="-10" x2="0" end2="none" x1="0"/>
+        <polygon y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="10" x3="10" antialias="false" y1="20" x2="20" x1="20"/>
+        <polygon y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="10" x3="-10" antialias="false" y1="20" x2="0" x1="0"/>
+        <dynamic_text x="-20" y="-20" rotation="0" frame="false" font="Arial,6,-1,5,75,0,0,0,0,0" text_width="-1" Halignment="AlignRight" Valignment="AlignVCenter" z="6" text_from="ElementInfo" uuid="{ac225072-480a-41e3-9f41-58183a0a7244}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text x="-20" y="-8" rotation="0" frame="false" font="Arial,4,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignRight" Valignment="AlignVCenter" z="7" text_from="ElementInfo" uuid="{f09eceba-ed8a-4f5b-9435-fc556bc185a8}">
+            <text></text>
+            <info_name>designation</info_name>
+        </dynamic_text>
+        <dynamic_text x="-20" y="0" rotation="0" frame="false" font="Arial,4,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignRight" Valignment="AlignVCenter" z="8" text_from="ElementInfo" uuid="{33186cd4-478b-4140-b446-bde3e3f87228}">
+            <text></text>
+            <info_name>description</info_name>
+        </dynamic_text>
+        <arc x="-2" y="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" height="4" angle="180" antialias="true" width="4" start="90"/>
+        <arc x="18" y="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" height="4" angle="180" antialias="true" width="4" start="90"/>
+        <text x="2" y="-16" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="1/L1" color="#000000"/>
+        <text x="22" y="-16" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="3/L2" color="#000000"/>
+        <text x="2" y="20" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="2/T1" color="#000000"/>
+        <text x="22" y="20" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="4/T2" color="#000000"/>
+        <terminal x="0" y="-20" name="" orientation="n" uuid="{b52344eb-dd3e-4f37-896a-a03211323447}"/>
+        <terminal x="0" y="20" name="" orientation="s" uuid="{20a2348c-2e7b-4d42-b1fb-7d9f522ef2e8}"/>
+        <terminal x="20" y="-20" name="" orientation="n" uuid="{e099be61-4ea3-4f8d-8f77-f6616259e9fb}"/>
+        <terminal x="20" y="20" name="" orientation="s" uuid="{75c1c4d9-7042-4d2a-a1d7-8293e12d04bb}"/>
+    </description>
+</definition>

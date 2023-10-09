@@ -1,0 +1,44 @@
+<definition hotspot_x="20" version="0.80" height="50" hotspot_y="24" link_type="master" type="element" width="40">
+    <uuid uuid="{903ac82f-b4bb-46e6-955a-550ef9397d39}"/>
+    <names>
+        <name lang="sk">Cievka.</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">coil</kindInformation>
+    </kindInformations>
+    <elementInformations>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="manufacturer"></elementInformation>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+    </elementInformations>
+    <informations></informations>
+    <description>
+        <rect y="-8" height="16" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" x="-16" width="32" rx="0"/>
+        <line y2="-8" length1="1.5" x2="0" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-20" end2="none" x1="0"/>
+        <line y2="20" length1="1.5" x2="0" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="8" end2="none" x1="0"/>
+        <text font="Arial,4,-1,5,50,0,0,0,0,0" text="A1" y="-15" rotation="0" x="3" color="#000000"/>
+        <text font="Arial,4,-1,5,50,0,0,0,0,0" text="A2" y="19" rotation="0" x="3" color="#000000"/>
+        <dynamic_text font="Arial,6,-1,5,75,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="0" uuid="{ac225072-480a-41e3-9f41-58183a0a7244}" frame="false" Halignment="AlignRight" z="6" text_width="-1" Valignment="AlignVCenter" x="-26">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text font="Arial,4,-1,5,50,0,0,0,0,0" y="-8" text_from="ElementInfo" rotation="0" uuid="{f09eceba-ed8a-4f5b-9435-fc556bc185a8}" frame="false" Halignment="AlignRight" z="7" text_width="-1" Valignment="AlignVCenter" x="-26">
+            <text></text>
+            <info_name>designation</info_name>
+        </dynamic_text>
+        <dynamic_text font="Arial,4,-1,5,50,0,0,0,0,0" y="0" text_from="ElementInfo" rotation="0" uuid="{33186cd4-478b-4140-b446-bde3e3f87228}" frame="false" Halignment="AlignRight" z="8" text_width="-1" Valignment="AlignVCenter" x="-26">
+            <text></text>
+            <info_name>description</info_name>
+        </dynamic_text>
+        <terminal y="-20" uuid="{bbc71168-28d5-4b32-b793-c83ea66ead3e}" orientation="n" name="" x="0"/>
+        <terminal y="20" uuid="{ca7e2ee8-c88b-47d1-9496-6be532e01559}" orientation="s" name="" x="0"/>
+    </description>
+</definition>

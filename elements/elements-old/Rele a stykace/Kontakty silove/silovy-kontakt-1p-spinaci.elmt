@@ -1,0 +1,33 @@
+<definition width="30" height="50" hotspot_x="13" version="0.80" hotspot_y="25" link_type="slave" type="element">
+    <uuid uuid="{bf679d03-4be1-4a6f-94a7-ee63dba3d3ad}"/>
+    <names>
+        <name lang="sk">Jednopolovy silovy kontakt (spinaci).</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="state">NO</kindInformation>
+        <kindInformation show="1" name="number">1</kindInformation>
+        <kindInformation show="1" name="type">power</kindInformation>
+    </kindInformations>
+    <informations></informations>
+    <description>
+        <line y2="-20" end1="none" length1="1.5" length2="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-10" x1="0" end2="none"/>
+        <polygon y2="10" y3="-10" x3="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="20" x1="0" closed="false"/>
+        <arc x="-2" start="90" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-14" angle="180"/>
+        <text x="2" rotation="0" y="-16" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="1/L1"/>
+        <dynamic_text uuid="{ac225072-480a-41e3-9f41-58183a0a7244}" x="-20" text_from="ElementInfo" rotation="0" frame="false" y="-20" z="6" Halignment="AlignRight" Valignment="AlignVCenter" text_width="-1" font="Arial,6,-1,5,75,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="2" rotation="0" y="20" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="2/T1"/>
+        <dynamic_text uuid="{f09eceba-ed8a-4f5b-9435-fc556bc185a8}" x="-20" text_from="ElementInfo" rotation="0" frame="false" y="-8" z="7" Halignment="AlignRight" Valignment="AlignVCenter" text_width="-1" font="Arial,4,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>designation</info_name>
+        </dynamic_text>
+        <dynamic_text uuid="{33186cd4-478b-4140-b446-bde3e3f87228}" x="-20" text_from="ElementInfo" rotation="0" frame="false" y="0" z="8" Halignment="AlignRight" Valignment="AlignVCenter" text_width="-1" font="Arial,4,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>description</info_name>
+        </dynamic_text>
+        <terminal uuid="{b52344eb-dd3e-4f37-896a-a03211323447}" x="0" name="" y="-20" orientation="n"/>
+        <terminal uuid="{20a2348c-2e7b-4d42-b1fb-7d9f522ef2e8}" x="0" name="" y="20" orientation="s"/>
+    </description>
+</definition>
