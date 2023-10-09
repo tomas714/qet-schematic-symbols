@@ -1,17 +1,33 @@
-<definition hotspot_x="5" version="0.70" link_type="simple" height="20" type="element" orientation="dyyy" width="10" hotspot_y="5">
-    <uuid uuid="{d3a45cc3-c42e-4ece-9292-f8aa2e787bcc}"/>
+<definition version="0.100.0" hotspot_x="5" hotspot_y="5" type="element" height="20" width="10" link_type="terminal">
+    <uuid uuid="{378cf0d3-ace6-40b8-add9-d718799a03ef}"/>
     <names>
         <name lang="sk">Svorka (1N)</name>
     </names>
-    <elementInformations/>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1"></elementInformation>
+        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
+    </elementInformations>
     <informations></informations>
     <description>
-        <circle diameter="6" antialias="false" y="-3" x="-3" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x1="0" y2="10" length2="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y1="3"/>
-        <dynamic_text font="Arial,6,-1,5,50,0,0,0,0,0" frame="false" z="4" rotation="270" y="4" text_from="ElementInfo" uuid="{13fd81e1-44e1-4eee-8391-30f3c31673a2}" x="0" text_width="-1" Halignment="AlignHCenter" Valignment="AlignTop">
+        <circle x="-3" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-3" antialias="false"/>
+        <line x1="0" x2="0" y2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="3" antialias="false" end2="none"/>
+        <dynamic_text text_from="ElementInfo" x="0" keep_visual_rotation="true" uuid="{13fd81e1-44e1-4eee-8391-30f3c31673a2}" Valignment="AlignTop" text_width="-1" Halignment="AlignHCenter" rotation="270" y="4" font="Arial,6,-1,5,50,0,0,0,0,0" z="4" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="10" x="0" orientation="s"/>
+        <terminal orientation="s" x="0" uuid="{d70e0df4-873f-48fe-a0b6-132e4ea1a88b}" type="Generic" y="10" name=""/>
     </description>
 </definition>
